@@ -1,30 +1,54 @@
 body, html {
-    /*height: 100%;*/
+    height: 100%;
     margin: 0;
     /*overflow:hidden;*/
     font-family: helvetica;
     font-weight: 100;
     background-color: #ededed;
 }
+
 .header{
     background-color: #8BC34A;
     height: 64px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    line-height: 64px;
 }
-.container{
-    /*position: relative;*/
-    background-color: white;
-    margin: 36px auto 120px;
+.header div{
     width: 800px;
-    min-height: 600px;
+    margin: 0 auto;
+}
+.formfild {
+    background-color: white;
+    margin: 36px auto 10px;
+    width: 800px;
+    /*min-height: 200px;*/
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    border-radius: 2px;
+}
+form div {
+    height: 36px;
+    margin: 0 36px;
+}
+form div span{
+    float: left;
+    width: 50%;
+}
+#div-btn{
+    text-align: right;
+}
+#btn{
+    margin-right: 20px;
+}
+.table {
+    background-color: white;
+    margin: 16px auto 10px;
+    width: 800px;
+    min-height: 200px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     border-radius: 2px;
 }
 .footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-    background-color: #8BC34A;
-    line-height: 80px;
+    width: 800px;
+    margin: 0 auto;
+    color: #959595;
 }
